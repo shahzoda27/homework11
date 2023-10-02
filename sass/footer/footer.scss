@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    .footer__img{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer__box{
+        display: flex;
+        .footer__box-ul{
+            font-size: 22px;
+            li{
+                margin-top: 15px;
+            }
+        }
+    }
+}
